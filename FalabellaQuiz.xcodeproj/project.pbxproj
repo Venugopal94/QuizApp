@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9B92772467ACE100B33BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B92762467ACE100B33BBC /* AppDelegate.swift */; };
+		1F9B92792467ACE100B33BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B92782467ACE100B33BBC /* SceneDelegate.swift */; };
+		1F9B927B2467ACE100B33BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B927A2467ACE100B33BBC /* ViewController.swift */; };
+		1F9B927E2467ACE100B33BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B927C2467ACE100B33BBC /* Main.storyboard */; };
+		1F9B92802467ACE300B33BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B927F2467ACE300B33BBC /* Assets.xcassets */; };
+		1F9B92832467ACE300B33BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B92812467ACE300B33BBC /* LaunchScreen.storyboard */; };
+		1F9B928E2467ACE300B33BBC /* FalabellaQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B928D2467ACE300B33BBC /* FalabellaQuizTests.swift */; };
+		1F9B92992467ACE300B33BBC /* FalabellaQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B92982467ACE300B33BBC /* FalabellaQuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F9B928A2467ACE300B33BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9B926B2467ACE100B33BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9B92722467ACE100B33BBC;
+			remoteInfo = FalabellaQuiz;
+		};
+		1F9B92952467ACE300B33BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9B926B2467ACE100B33BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9B92722467ACE100B33BBC;
+			remoteInfo = FalabellaQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F9B92732467ACE100B33BBC /* FalabellaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalabellaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9B92762467ACE100B33BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F9B92782467ACE100B33BBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F9B927A2467ACE100B33BBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F9B927D2467ACE100B33BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9B927F2467ACE300B33BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9B92822467ACE300B33BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F9B92842467ACE300B33BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9B92892467ACE300B33BBC /* FalabellaQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalabellaQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9B928D2467ACE300B33BBC /* FalabellaQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalabellaQuizTests.swift; sourceTree = "<group>"; };
+		1F9B928F2467ACE300B33BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9B92942467ACE300B33BBC /* FalabellaQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalabellaQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9B92982467ACE300B33BBC /* FalabellaQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalabellaQuizUITests.swift; sourceTree = "<group>"; };
+		1F9B929A2467ACE300B33BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9B92702467ACE100B33BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9B92862467ACE300B33BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9B92912467ACE300B33BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9B926A2467ACE100B33BBC = {
+			isa = PBXGroup;
+			children = (
+				1F9B92752467ACE100B33BBC /* FalabellaQuiz */,
+				1F9B928C2467ACE300B33BBC /* FalabellaQuizTests */,
+				1F9B92972467ACE300B33BBC /* FalabellaQuizUITests */,
+				1F9B92742467ACE100B33BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9B92742467ACE100B33BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B92732467ACE100B33BBC /* FalabellaQuiz.app */,
+				1F9B92892467ACE300B33BBC /* FalabellaQuizTests.xctest */,
+				1F9B92942467ACE300B33BBC /* FalabellaQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9B92752467ACE100B33BBC /* FalabellaQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B92762467ACE100B33BBC /* AppDelegate.swift */,
+				1F9B92782467ACE100B33BBC /* SceneDelegate.swift */,
+				1F9B927A2467ACE100B33BBC /* ViewController.swift */,
+				1F9B927C2467ACE100B33BBC /* Main.storyboard */,
+				1F9B927F2467ACE300B33BBC /* Assets.xcassets */,
+				1F9B92812467ACE300B33BBC /* LaunchScreen.storyboard */,
+				1F9B92842467ACE300B33BBC /* Info.plist */,
+			);
+			path = FalabellaQuiz;
+			sourceTree = "<group>";
+		};
+		1F9B928C2467ACE300B33BBC /* FalabellaQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B928D2467ACE300B33BBC /* FalabellaQuizTests.swift */,
+				1F9B928F2467ACE300B33BBC /* Info.plist */,
+			);
+			path = FalabellaQuizTests;
+			sourceTree = "<group>";
+		};
+		1F9B92972467ACE300B33BBC /* FalabellaQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B92982467ACE300B33BBC /* FalabellaQuizUITests.swift */,
+				1F9B929A2467ACE300B33BBC /* Info.plist */,
+			);
+			path = FalabellaQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9B92722467ACE100B33BBC /* FalabellaQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9B929D2467ACE300B33BBC /* Build configuration list for PBXNativeTarget "FalabellaQuiz" */;
+			buildPhases = (
+				1F9B926F2467ACE100B33BBC /* Sources */,
+				1F9B92702467ACE100B33BBC /* Frameworks */,
+				1F9B92712467ACE100B33BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FalabellaQuiz;
+			productName = FalabellaQuiz;
+			productReference = 1F9B92732467ACE100B33BBC /* FalabellaQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F9B92882467ACE300B33BBC /* FalabellaQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9B92A02467ACE300B33BBC /* Build configuration list for PBXNativeTarget "FalabellaQuizTests" */;
+			buildPhases = (
+				1F9B92852467ACE300B33BBC /* Sources */,
+				1F9B92862467ACE300B33BBC /* Frameworks */,
+				1F9B92872467ACE300B33BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9B928B2467ACE300B33BBC /* PBXTargetDependency */,
+			);
+			name = FalabellaQuizTests;
+			productName = FalabellaQuizTests;
+			productReference = 1F9B92892467ACE300B33BBC /* FalabellaQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F9B92932467ACE300B33BBC /* FalabellaQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9B92A32467ACE300B33BBC /* Build configuration list for PBXNativeTarget "FalabellaQuizUITests" */;
+			buildPhases = (
+				1F9B92902467ACE300B33BBC /* Sources */,
+				1F9B92912467ACE300B33BBC /* Frameworks */,
+				1F9B92922467ACE300B33BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9B92962467ACE300B33BBC /* PBXTargetDependency */,
+			);
+			name = FalabellaQuizUITests;
+			productName = FalabellaQuizUITests;
+			productReference = 1F9B92942467ACE300B33BBC /* FalabellaQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9B926B2467ACE100B33BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "venu Gopal";
+				TargetAttributes = {
+					1F9B92722467ACE100B33BBC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1F9B92882467ACE300B33BBC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1F9B92722467ACE100B33BBC;
+					};
+					1F9B92932467ACE300B33BBC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1F9B92722467ACE100B33BBC;
+					};
+				};
+			};
+			buildConfigurationList = 1F9B926E2467ACE100B33BBC /* Build configuration list for PBXProject "FalabellaQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9B926A2467ACE100B33BBC;
+			productRefGroup = 1F9B92742467ACE100B33BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9B92722467ACE100B33BBC /* FalabellaQuiz */,
+				1F9B92882467ACE300B33BBC /* FalabellaQuizTests */,
+				1F9B92932467ACE300B33BBC /* FalabellaQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9B92712467ACE100B33BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9B92832467ACE300B33BBC /* LaunchScreen.storyboard in Resources */,
+				1F9B92802467ACE300B33BBC /* Assets.xcassets in Resources */,
+				1F9B927E2467ACE100B33BBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9B92872467ACE300B33BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9B92922467ACE300B33BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9B926F2467ACE100B33BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9B927B2467ACE100B33BBC /* ViewController.swift in Sources */,
+				1F9B92772467ACE100B33BBC /* AppDelegate.swift in Sources */,
+				1F9B92792467ACE100B33BBC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9B92852467ACE300B33BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9B928E2467ACE300B33BBC /* FalabellaQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9B92902467ACE300B33BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9B92992467ACE300B33BBC /* FalabellaQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9B928B2467ACE300B33BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9B92722467ACE100B33BBC /* FalabellaQuiz */;
+			targetProxy = 1F9B928A2467ACE300B33BBC /* PBXContainerItemProxy */;
+		};
+		1F9B92962467ACE300B33BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9B92722467ACE100B33BBC /* FalabellaQuiz */;
+			targetProxy = 1F9B92952467ACE300B33BBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F9B927C2467ACE100B33BBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9B927D2467ACE100B33BBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9B92812467ACE300B33BBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9B92822467ACE300B33BBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F9B929B2467ACE300B33BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F9B929C2467ACE300B33BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9B929E2467ACE300B33BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FalabellaQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myown.FalabellaQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9B929F2467ACE300B33BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FalabellaQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myown.FalabellaQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F9B92A12467ACE300B33BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FalabellaQuizTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myown.FalabellaQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalabellaQuiz.app/FalabellaQuiz";
+			};
+			name = Debug;
+		};
+		1F9B92A22467ACE300B33BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FalabellaQuizTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myown.FalabellaQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalabellaQuiz.app/FalabellaQuiz";
+			};
+			name = Release;
+		};
+		1F9B92A42467ACE300B33BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FalabellaQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myown.FalabellaQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalabellaQuiz;
+			};
+			name = Debug;
+		};
+		1F9B92A52467ACE300B33BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FalabellaQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myown.FalabellaQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalabellaQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9B926E2467ACE100B33BBC /* Build configuration list for PBXProject "FalabellaQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9B929B2467ACE300B33BBC /* Debug */,
+				1F9B929C2467ACE300B33BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9B929D2467ACE300B33BBC /* Build configuration list for PBXNativeTarget "FalabellaQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9B929E2467ACE300B33BBC /* Debug */,
+				1F9B929F2467ACE300B33BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9B92A02467ACE300B33BBC /* Build configuration list for PBXNativeTarget "FalabellaQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9B92A12467ACE300B33BBC /* Debug */,
+				1F9B92A22467ACE300B33BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9B92A32467ACE300B33BBC /* Build configuration list for PBXNativeTarget "FalabellaQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9B92A42467ACE300B33BBC /* Debug */,
+				1F9B92A52467ACE300B33BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9B926B2467ACE100B33BBC /* Project object */;
+}
