@@ -3,18 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19E00EDEC2D85A7C560745E3 /* Pods_FalabellaQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533F451FC26FBD96663D5913 /* Pods_FalabellaQuiz.framework */; };
+		1F545A5224697EE000F72D35 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F545A5124697EE000F72D35 /* Score.swift */; };
+		1F545A542469807F00F72D35 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F545A532469807F00F72D35 /* BaseViewController.swift */; };
+		1F545A572469814400F72D35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F545A562469814400F72D35 /* Constants.swift */; };
+		1F545A592469BE8900F72D35 /* TopScoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F545A582469BE8900F72D35 /* TopScoresVC.swift */; };
+		1F9404D6246CF41E005EF471 /* TopscoresVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9404D5246CF41E005EF471 /* TopscoresVM.swift */; };
+		1F9404D8246D3160005EF471 /* UserRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9404D7246D3160005EF471 /* UserRegistrationVC.swift */; };
+		1F9404DA246D35D1005EF471 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9404D9246D35D1005EF471 /* User.swift */; };
+		1F9B3C7024683FB200A0C514 /* OptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B3C6E24683FB200A0C514 /* OptionCell.swift */; };
+		1F9B3C7124683FB200A0C514 /* OptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B3C6F24683FB200A0C514 /* OptionCell.xib */; };
+		1F9B3C742468427800A0C514 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B3C732468427800A0C514 /* NSObject+Extension.swift */; };
+		1F9B3C78246842A500A0C514 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B3C76246842A400A0C514 /* NetworkHandler.swift */; };
+		1F9B3C79246842A500A0C514 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B3C77246842A500A0C514 /* RealmManager.swift */; };
+		1F9B3C7A2468438300A0C514 /* QuizQuestionsPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B927A2467ACE100B33BBC /* QuizQuestionsPageVC.swift */; };
+		1F9B3C7B2468438300A0C514 /* QuizQuestionsPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B927A2467ACE100B33BBC /* QuizQuestionsPageVC.swift */; };
+		1F9B3C7E246848A700A0C514 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B3C7D246848A700A0C514 /* QuizQuestion.swift */; };
+		1F9B3C812468491E00A0C514 /* QuizQuestionsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B3C802468491E00A0C514 /* QuizQuestionsVM.swift */; };
 		1F9B92772467ACE100B33BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B92762467ACE100B33BBC /* AppDelegate.swift */; };
 		1F9B92792467ACE100B33BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B92782467ACE100B33BBC /* SceneDelegate.swift */; };
-		1F9B927B2467ACE100B33BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B927A2467ACE100B33BBC /* ViewController.swift */; };
-		1F9B927E2467ACE100B33BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B927C2467ACE100B33BBC /* Main.storyboard */; };
+		1F9B927B2467ACE100B33BBC /* QuizQuestionsPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B927A2467ACE100B33BBC /* QuizQuestionsPageVC.swift */; };
 		1F9B92802467ACE300B33BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B927F2467ACE300B33BBC /* Assets.xcassets */; };
 		1F9B92832467ACE300B33BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B92812467ACE300B33BBC /* LaunchScreen.storyboard */; };
 		1F9B928E2467ACE300B33BBC /* FalabellaQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B928D2467ACE300B33BBC /* FalabellaQuizTests.swift */; };
 		1F9B92992467ACE300B33BBC /* FalabellaQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B92982467ACE300B33BBC /* FalabellaQuizUITests.swift */; };
+		1F9B92A72467B52A00B33BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B92A62467B52A00B33BBC /* Main.storyboard */; };
+		1F9B92A82467B52A00B33BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B92A62467B52A00B33BBC /* Main.storyboard */; };
+		1F9B92A92467B52A00B33BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B92A62467B52A00B33BBC /* Main.storyboard */; };
+		1F9B92AB2467B58B00B33BBC /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B92AA2467B58B00B33BBC /* PageContentViewController.swift */; };
+		1F9B92AC2467B58B00B33BBC /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B92AA2467B58B00B33BBC /* PageContentViewController.swift */; };
+		1F9B92AD2467B58B00B33BBC /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B92AA2467B58B00B33BBC /* PageContentViewController.swift */; };
+		1FEFF043246DA84300DCB22E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF042246DA84300DCB22E /* UIViewController+Extension.swift */; };
+		369588E217D5F9714B8C04A5 /* Pods_FalabellaQuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCD870BD6CF750764C7CA95 /* Pods_FalabellaQuizTests.framework */; };
+		A5CBE13B211253867D49FCF1 /* Pods_FalabellaQuiz_FalabellaQuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D162CDA65190C5C3E918A1B /* Pods_FalabellaQuiz_FalabellaQuizUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +60,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BCD870BD6CF750764C7CA95 /* Pods_FalabellaQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FalabellaQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F545A5124697EE000F72D35 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		1F545A532469807F00F72D35 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1F545A562469814400F72D35 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F545A582469BE8900F72D35 /* TopScoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScoresVC.swift; sourceTree = "<group>"; };
+		1F9404D5246CF41E005EF471 /* TopscoresVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopscoresVM.swift; sourceTree = "<group>"; };
+		1F9404D7246D3160005EF471 /* UserRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationVC.swift; sourceTree = "<group>"; };
+		1F9404D9246D35D1005EF471 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1F9B3C6E24683FB200A0C514 /* OptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCell.swift; sourceTree = "<group>"; };
+		1F9B3C6F24683FB200A0C514 /* OptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionCell.xib; sourceTree = "<group>"; };
+		1F9B3C732468427800A0C514 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		1F9B3C76246842A400A0C514 /* NetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		1F9B3C77246842A500A0C514 /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		1F9B3C7D246848A700A0C514 /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		1F9B3C802468491E00A0C514 /* QuizQuestionsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionsVM.swift; sourceTree = "<group>"; };
 		1F9B92732467ACE100B33BBC /* FalabellaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalabellaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9B92762467ACE100B33BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F9B92782467ACE100B33BBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F9B927A2467ACE100B33BBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F9B927D2467ACE100B33BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9B927A2467ACE100B33BBC /* QuizQuestionsPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionsPageVC.swift; sourceTree = "<group>"; };
 		1F9B927F2467ACE300B33BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F9B92822467ACE300B33BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F9B92842467ACE300B33BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +88,17 @@
 		1F9B92942467ACE300B33BBC /* FalabellaQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalabellaQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9B92982467ACE300B33BBC /* FalabellaQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalabellaQuizUITests.swift; sourceTree = "<group>"; };
 		1F9B929A2467ACE300B33BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9B92A62467B52A00B33BBC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1F9B92AA2467B58B00B33BBC /* PageContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		1FEFF042246DA84300DCB22E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		2A03C74E77A03408BB568B01 /* Pods-FalabellaQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaQuizTests.debug.xcconfig"; path = "Target Support Files/Pods-FalabellaQuizTests/Pods-FalabellaQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		533F451FC26FBD96663D5913 /* Pods_FalabellaQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FalabellaQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D162CDA65190C5C3E918A1B /* Pods_FalabellaQuiz_FalabellaQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FalabellaQuiz_FalabellaQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82914D8B613F337676BD520E /* Pods-FalabellaQuiz-FalabellaQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaQuiz-FalabellaQuizUITests.release.xcconfig"; path = "Target Support Files/Pods-FalabellaQuiz-FalabellaQuizUITests/Pods-FalabellaQuiz-FalabellaQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84D07CCEBB99CF9A5F476DD9 /* Pods-FalabellaQuiz-FalabellaQuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaQuiz-FalabellaQuizUITests.debug.xcconfig"; path = "Target Support Files/Pods-FalabellaQuiz-FalabellaQuizUITests/Pods-FalabellaQuiz-FalabellaQuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AFA702C684A6BBD220920B3 /* Pods-FalabellaQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaQuiz.release.xcconfig"; path = "Target Support Files/Pods-FalabellaQuiz/Pods-FalabellaQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		98CD486B65B85F83CFB4C5E0 /* Pods-FalabellaQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaQuiz.debug.xcconfig"; path = "Target Support Files/Pods-FalabellaQuiz/Pods-FalabellaQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		AA091A79B087889B03F90D92 /* Pods-FalabellaQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalabellaQuizTests.release.xcconfig"; path = "Target Support Files/Pods-FalabellaQuizTests/Pods-FalabellaQuizTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E00EDEC2D85A7C560745E3 /* Pods_FalabellaQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369588E217D5F9714B8C04A5 /* Pods_FalabellaQuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +122,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CBE13B211253867D49FCF1 /* Pods_FalabellaQuiz_FalabellaQuizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F545A552469812B00F72D35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1F545A562469814400F72D35 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1F9B3C6C24683F6500A0C514 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B927A2467ACE100B33BBC /* QuizQuestionsPageVC.swift */,
+				1F9B92AA2467B58B00B33BBC /* PageContentViewController.swift */,
+				1F9B3C6D24683F7D00A0C514 /* Cells */,
+				1F545A532469807F00F72D35 /* BaseViewController.swift */,
+				1F545A582469BE8900F72D35 /* TopScoresVC.swift */,
+				1F9404D7246D3160005EF471 /* UserRegistrationVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F9B3C6D24683F7D00A0C514 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B3C6E24683FB200A0C514 /* OptionCell.swift */,
+				1F9B3C6F24683FB200A0C514 /* OptionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1F9B3C722468426100A0C514 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B3C732468427800A0C514 /* NSObject+Extension.swift */,
+				1FEFF042246DA84300DCB22E /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F9B3C752468428D00A0C514 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B3C76246842A400A0C514 /* NetworkHandler.swift */,
+				1F9B3C77246842A500A0C514 /* RealmManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1F9B3C7C2468482C00A0C514 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B3C7D246848A700A0C514 /* QuizQuestion.swift */,
+				1F545A5124697EE000F72D35 /* Score.swift */,
+				1F9404D9246D35D1005EF471 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F9B3C7F246848DE00A0C514 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B3C802468491E00A0C514 /* QuizQuestionsVM.swift */,
+				1F9404D5246CF41E005EF471 /* TopscoresVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		1F9B926A2467ACE100B33BBC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +203,8 @@
 				1F9B928C2467ACE300B33BBC /* FalabellaQuizTests */,
 				1F9B92972467ACE300B33BBC /* FalabellaQuizUITests */,
 				1F9B92742467ACE100B33BBC /* Products */,
+				696CF8334082618CBFE1D5DB /* Pods */,
+				F1948122C88AEF7E7DFF133C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +221,17 @@
 		1F9B92752467ACE100B33BBC /* FalabellaQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				1F545A552469812B00F72D35 /* Helpers */,
+				1F9B3C7F246848DE00A0C514 /* ViewModels */,
+				1F9B3C7C2468482C00A0C514 /* Models */,
+				1F9B3C752468428D00A0C514 /* Managers */,
+				1F9B3C722468426100A0C514 /* Extensions */,
+				1F9B3C6C24683F6500A0C514 /* Views */,
 				1F9B92762467ACE100B33BBC /* AppDelegate.swift */,
 				1F9B92782467ACE100B33BBC /* SceneDelegate.swift */,
-				1F9B927A2467ACE100B33BBC /* ViewController.swift */,
-				1F9B927C2467ACE100B33BBC /* Main.storyboard */,
 				1F9B927F2467ACE300B33BBC /* Assets.xcassets */,
 				1F9B92812467ACE300B33BBC /* LaunchScreen.storyboard */,
+				1F9B92A62467B52A00B33BBC /* Main.storyboard */,
 				1F9B92842467ACE300B33BBC /* Info.plist */,
 			);
 			path = FalabellaQuiz;
@@ -128,6 +255,29 @@
 			path = FalabellaQuizUITests;
 			sourceTree = "<group>";
 		};
+		696CF8334082618CBFE1D5DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98CD486B65B85F83CFB4C5E0 /* Pods-FalabellaQuiz.debug.xcconfig */,
+				8AFA702C684A6BBD220920B3 /* Pods-FalabellaQuiz.release.xcconfig */,
+				84D07CCEBB99CF9A5F476DD9 /* Pods-FalabellaQuiz-FalabellaQuizUITests.debug.xcconfig */,
+				82914D8B613F337676BD520E /* Pods-FalabellaQuiz-FalabellaQuizUITests.release.xcconfig */,
+				2A03C74E77A03408BB568B01 /* Pods-FalabellaQuizTests.debug.xcconfig */,
+				AA091A79B087889B03F90D92 /* Pods-FalabellaQuizTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1948122C88AEF7E7DFF133C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				533F451FC26FBD96663D5913 /* Pods_FalabellaQuiz.framework */,
+				7D162CDA65190C5C3E918A1B /* Pods_FalabellaQuiz_FalabellaQuizUITests.framework */,
+				1BCD870BD6CF750764C7CA95 /* Pods_FalabellaQuizTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F9B929D2467ACE300B33BBC /* Build configuration list for PBXNativeTarget "FalabellaQuiz" */;
 			buildPhases = (
+				F30A43675730969399E8C1DC /* [CP] Check Pods Manifest.lock */,
 				1F9B926F2467ACE100B33BBC /* Sources */,
 				1F9B92702467ACE100B33BBC /* Frameworks */,
 				1F9B92712467ACE100B33BBC /* Resources */,
+				08E5BFA11CAB8FC8128D8658 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F9B92A02467ACE300B33BBC /* Build configuration list for PBXNativeTarget "FalabellaQuizTests" */;
 			buildPhases = (
+				0EE1C078E6DAFCEEEFAC74F6 /* [CP] Check Pods Manifest.lock */,
 				1F9B92852467ACE300B33BBC /* Sources */,
 				1F9B92862467ACE300B33BBC /* Frameworks */,
 				1F9B92872467ACE300B33BBC /* Resources */,
@@ -170,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F9B92A32467ACE300B33BBC /* Build configuration list for PBXNativeTarget "FalabellaQuizUITests" */;
 			buildPhases = (
+				32E8B50331B9F62CF3F78E71 /* [CP] Check Pods Manifest.lock */,
 				1F9B92902467ACE300B33BBC /* Sources */,
 				1F9B92912467ACE300B33BBC /* Frameworks */,
 				1F9B92922467ACE300B33BBC /* Resources */,
+				6B60BB370A9AEC75CEF12043 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +387,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9B3C7124683FB200A0C514 /* OptionCell.xib in Resources */,
+				1F9B92A72467B52A00B33BBC /* Main.storyboard in Resources */,
 				1F9B92832467ACE300B33BBC /* LaunchScreen.storyboard in Resources */,
 				1F9B92802467ACE300B33BBC /* Assets.xcassets in Resources */,
-				1F9B927E2467ACE100B33BBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9B92A82467B52A00B33BBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,19 +406,138 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9B92A92467B52A00B33BBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08E5BFA11CAB8FC8128D8658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FalabellaQuiz/Pods-FalabellaQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FalabellaQuiz/Pods-FalabellaQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FalabellaQuiz/Pods-FalabellaQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EE1C078E6DAFCEEEFAC74F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FalabellaQuizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32E8B50331B9F62CF3F78E71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FalabellaQuiz-FalabellaQuizUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B60BB370A9AEC75CEF12043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FalabellaQuiz-FalabellaQuizUITests/Pods-FalabellaQuiz-FalabellaQuizUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FalabellaQuiz-FalabellaQuizUITests/Pods-FalabellaQuiz-FalabellaQuizUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FalabellaQuiz-FalabellaQuizUITests/Pods-FalabellaQuiz-FalabellaQuizUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F30A43675730969399E8C1DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FalabellaQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F9B926F2467ACE100B33BBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F9B927B2467ACE100B33BBC /* ViewController.swift in Sources */,
+				1FEFF043246DA84300DCB22E /* UIViewController+Extension.swift in Sources */,
+				1F9B3C7E246848A700A0C514 /* QuizQuestion.swift in Sources */,
+				1F545A592469BE8900F72D35 /* TopScoresVC.swift in Sources */,
+				1F9B3C7024683FB200A0C514 /* OptionCell.swift in Sources */,
+				1F9B3C79246842A500A0C514 /* RealmManager.swift in Sources */,
+				1F9B927B2467ACE100B33BBC /* QuizQuestionsPageVC.swift in Sources */,
+				1F9B92AB2467B58B00B33BBC /* PageContentViewController.swift in Sources */,
+				1F9404D8246D3160005EF471 /* UserRegistrationVC.swift in Sources */,
+				1F9404DA246D35D1005EF471 /* User.swift in Sources */,
+				1F545A542469807F00F72D35 /* BaseViewController.swift in Sources */,
+				1F9B3C812468491E00A0C514 /* QuizQuestionsVM.swift in Sources */,
+				1F545A572469814400F72D35 /* Constants.swift in Sources */,
+				1F9404D6246CF41E005EF471 /* TopscoresVM.swift in Sources */,
 				1F9B92772467ACE100B33BBC /* AppDelegate.swift in Sources */,
 				1F9B92792467ACE100B33BBC /* SceneDelegate.swift in Sources */,
+				1F9B3C742468427800A0C514 /* NSObject+Extension.swift in Sources */,
+				1F545A5224697EE000F72D35 /* Score.swift in Sources */,
+				1F9B3C78246842A500A0C514 /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +545,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9B3C7B2468438300A0C514 /* QuizQuestionsPageVC.swift in Sources */,
 				1F9B928E2467ACE300B33BBC /* FalabellaQuizTests.swift in Sources */,
+				1F9B92AC2467B58B00B33BBC /* PageContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +555,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9B3C7A2468438300A0C514 /* QuizQuestionsPageVC.swift in Sources */,
 				1F9B92992467ACE300B33BBC /* FalabellaQuizUITests.swift in Sources */,
+				1F9B92AD2467B58B00B33BBC /* PageContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +577,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F9B927C2467ACE100B33BBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F9B927D2467ACE100B33BBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F9B92812467ACE300B33BBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +704,7 @@
 		};
 		1F9B929E2467ACE300B33BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CD486B65B85F83CFB4C5E0 /* Pods-FalabellaQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +722,7 @@
 		};
 		1F9B929F2467ACE300B33BBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFA702C684A6BBD220920B3 /* Pods-FalabellaQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +740,7 @@
 		};
 		1F9B92A12467ACE300B33BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A03C74E77A03408BB568B01 /* Pods-FalabellaQuizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +762,7 @@
 		};
 		1F9B92A22467ACE300B33BBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA091A79B087889B03F90D92 /* Pods-FalabellaQuizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +784,7 @@
 		};
 		1F9B92A42467ACE300B33BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D07CCEBB99CF9A5F476DD9 /* Pods-FalabellaQuiz-FalabellaQuizUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +804,7 @@
 		};
 		1F9B92A52467ACE300B33BBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82914D8B613F337676BD520E /* Pods-FalabellaQuiz-FalabellaQuizUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

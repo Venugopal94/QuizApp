@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OptionCell" id="gTV-IL-0wX" customClass="OptionCell" customModule="FalabellaQuiz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="210" height="47"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="210" height="47"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DBM-oZ-fU9">
+                        <rect key="frame" x="10" y="10" width="190" height="27"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N3r-eH-zkV">
+                                <rect key="frame" x="0.0" y="5.5" width="16" height="16"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="NRn-cM-2VD"/>
+                                    <constraint firstAttribute="width" constant="16" id="m3b-Ws-Kbe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2X-2j-fr8">
+                                <rect key="frame" x="26" y="0.0" width="164" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="u2X-2j-fr8" secondAttribute="bottom" id="2nq-ri-5av"/>
+                            <constraint firstItem="u2X-2j-fr8" firstAttribute="leading" secondItem="N3r-eH-zkV" secondAttribute="trailing" constant="10" id="GbU-5k-asl"/>
+                            <constraint firstItem="N3r-eH-zkV" firstAttribute="centerY" secondItem="DBM-oZ-fU9" secondAttribute="centerY" id="Kw3-wd-ta6"/>
+                            <constraint firstAttribute="trailing" secondItem="u2X-2j-fr8" secondAttribute="trailing" id="T5d-kq-pIz"/>
+                            <constraint firstItem="N3r-eH-zkV" firstAttribute="leading" secondItem="DBM-oZ-fU9" secondAttribute="leading" id="W9l-Az-hnE"/>
+                            <constraint firstItem="u2X-2j-fr8" firstAttribute="top" secondItem="DBM-oZ-fU9" secondAttribute="top" id="mUa-pQ-wF3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="DBM-oZ-fU9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="68o-LE-PxI"/>
+                <constraint firstAttribute="bottom" secondItem="DBM-oZ-fU9" secondAttribute="bottom" constant="10" id="Goi-P5-sh4"/>
+                <constraint firstItem="DBM-oZ-fU9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="OYj-AD-yXs"/>
+                <constraint firstAttribute="trailing" secondItem="DBM-oZ-fU9" secondAttribute="trailing" constant="10" id="oIx-oS-IKI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="210" height="47"/>
+            <connections>
+                <outlet property="optionText" destination="u2X-2j-fr8" id="8y4-Ei-ytj"/>
+                <outlet property="radioView" destination="N3r-eH-zkV" id="GYF-sX-EVQ"/>
+            </connections>
+            <point key="canvasLocation" x="253.62318840579712" y="129.57589285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>
